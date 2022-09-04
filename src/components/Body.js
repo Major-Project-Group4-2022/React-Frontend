@@ -6,9 +6,9 @@ import wind from "../images/wind.png";
 
 
 function Body (props) {
-    let url = `http://127.0.0.1:8000/data/${props.City}`
-    if (url === 'http://127.0.0.1:8000/data/undefined'){
-        url="http://127.0.0.1:8000/data/sambalpur"
+    let url = `https://aqidjango.herokuapp.com/data/${props.City}`
+    if (url === 'https://aqidjango.herokuapp.com/data/undefined'){
+        url="https://aqidjango.herokuapp.com/data/sambalpur"
     }
        
         console.log(url)
@@ -20,7 +20,7 @@ function Body (props) {
             })
         })
      },[])
-     console.warn(data)
+    
     
 
     return(
