@@ -18,7 +18,7 @@ function Signup () {
       let userdata = {FirstName,LastName,MobileNo,EmailId,UserName,Password}
       //console.log(userdata);
 
-      let result = await fetch("http://127.0.0.1:8000/signup/",{
+      let result = await fetch("https://aqidjango.herokuapp.com/signup/",{
          
           method : 'POST',
           headers : {
