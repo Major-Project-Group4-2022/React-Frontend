@@ -18,7 +18,7 @@ function Nav  ({setData}) {
 
         let citydata = {City}
          
-          navigate('/Home/'+citydata.City)
+          navigate('/home/'+citydata.City)
           window.location.reload(false)
          
       }
