@@ -13,7 +13,7 @@ import { useNavigate } from 'react-router-dom';
       let userdata = {UserName,Password}
       //console.log(userdata);
 
-      let result = await fetch("https://aqidjango.herokuapp.com",{
+      let result = await fetch("https://aqidjango.herokuapp.com/login",{
          
           method : 'POST',
           headers : {
